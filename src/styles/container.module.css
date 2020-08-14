@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    place-items: center;
+    background-color: hsl(99deg 64% 86%);
+}
+.container > *{
+    justify-content: space-between;
+    /* padding: 1rem; */
+}
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100vh; */
+    position: relative;
+    /* width: 100vw; */
+}
+.leftCenterContainer{
+    display: flex;
+    position: relative;
+}
+
+.item{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+}
+.circImg{
+    width: 25%;
+    border-radius: 50%;
+}
+.line{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
